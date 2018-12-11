@@ -1,9 +1,9 @@
 node{
 	stage('Checkout'){
-		checkoutscm
+		checkout scm
 	}
 	
-	stage('Build'){
-		 sh 'mvnw clean install -q'
+	stage('Compile'){
+		 sh './mvnw clean install -q'
 	}
 }
