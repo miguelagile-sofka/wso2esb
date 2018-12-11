@@ -4,6 +4,6 @@ node{
 	}
 	
 	stage('Compile'){
-		 sh './mvnw clean install -q'
+		 sh 'mvn clean install -q'
 	}
 }
