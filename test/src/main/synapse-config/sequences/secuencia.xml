@@ -3,8 +3,8 @@
   <payloadFactory media-type="json">
     <format>
       {
-      	{"mensaje":"Hello Word Chanegs"},
-      	{"mensaje":"Hello Word Chanegs"}
+      	{"mensaje":"Hello Word"},
+      	{"mensaje":"Hello Word"}
       }
     </format>
     <args/>
